@@ -1,0 +1,172 @@
+body {
+	color: #fff;
+	background-color: ff0000;
+	font-family:'ITC Avant Garde Gothic W05BdOb';
+	text-align: center;
+}
+
+
+
+/*LOGO*/
+
+.logo {
+	width: 350px;
+}
+
+/*GRID*/
+
+.date {
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+.middle {
+	margin-top: 15vh;
+}
+
+/*ANIMATION*/
+
+@keyframes rotating
+	{
+	from
+		{
+		transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		}
+	to
+		{
+		transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		}
+	}
+@-webkit-keyframes rotating
+	{
+	from
+		{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		}
+	to
+		{
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		}
+	}
+
+.date:hover {
+	-webkit-animation: rotating 1.5s linear infinite;
+	-moz-animation: rotating 1.5s linear infinite;
+	-ms-animation: rotating 1.5s linear infinite;
+	-o-animation: rotating 1.5s linear infinite;
+	animation: rotating 1.5s linear infinite;
+  
+}
+
+/*SIGNUP*/
+
+input {
+	border: none;
+	width: 320px;
+}
+
+input.email {
+	font-family: 'Space Mono', monospace;
+	text-align: center;
+	background-color: transparent;
+	border-bottom: 1px dotted #fff;
+	margin-bottom: 8px;
+	color: #fff !important;
+}
+
+input.email::placeholder {
+	color: #fff;
+	opacity: 0.6;
+}
+
+input.email:focus {
+	color: #fff;
+}
+
+input.button {
+	color: ff0000;
+	background-color: #fff;
+	font-size: 28px;
+	padding: 4px 32px;
+}
+
+/*FOOTER*/
+
+footer {
+	font-family: 'Space Mono', monospace;
+	width: 100%;
+	font-size: 12px;
+}
+
+.socials img {
+	width: 30px;
+	margin: 24px 4px 16px;
+}
+
+
+/*TYPOGRAPHY*/
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h1, h2 {
+	margin-top: 6vh;
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+
+	#mc_embed_signup {
+		margin-top: 50px;
+	}
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	
+	.logo,
+	input {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 44px;
+	}
+
+	.date {
+		max-width: 70%;
+	}
+
+	.middle {
+		margin-top: 0;
+	}
+
+}
+
+/*XX small devices (portrait phones, less than 420px)*/
+@media (max-width: 420px) {
+
+}
+
