@@ -101,13 +101,18 @@ input {
 	margin: 10px auto;
 }
 
-.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:hover {
 	background-color: #000;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+	background-color: #000;
 	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.5);
 }
 
