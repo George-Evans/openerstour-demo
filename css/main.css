@@ -1,7 +1,7 @@
 body {
 	color: #fff;
 	background-color: #ff0000;
-	font-family:'ITC Avant Garde Gothic W05BdOb';
+	font-family:'ITC Avant Garde GothicW01BdObl';
 	text-align: center;
 }
 
@@ -101,18 +101,13 @@ input {
 	margin: 10px auto;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:active,
 .btn-primary:hover {
 	background-color: #000;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.5);
-}
-
-.btn-primary:not(:disabled):not(.disabled):active:focus {
-	background-color: #000;
 	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.5);
 }
 
