@@ -111,6 +111,12 @@ input {
 	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.5);
 }
 
+.btn-primary.disabled {
+	background-color: #fff;
+	color: #ff0000;
+	opacity: 0.8;
+}
+
 input.email {
 	font-family: 'Space Mono', monospace;
 	text-align: center;
