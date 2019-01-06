@@ -35,7 +35,7 @@ body {
 }
 
 .align-self-center {
-	margin-top: 20vh;
+	margin: 5vh 0;
 }
 
 /*ANIMATION*/
@@ -171,11 +171,11 @@ h2 {
 }
 
 h1, h2 {
-	margin-top: 6vh;
+	margin-top: 4vh;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 
@@ -184,10 +184,6 @@ h3 {
 
 	.date {
 		max-width: 70%;
-	}
-
-	#mc_embed_signup {
-		margin-top: 50px;
 	}
 
 }
@@ -224,11 +220,6 @@ h3 {
 
 	.col-md-4 {
 		margin: 24px 0;
-	}
-
-
-	.align-self-center {
-		margin-top: 0;
 	}
 
 }
