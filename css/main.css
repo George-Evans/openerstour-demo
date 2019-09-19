@@ -16,7 +16,7 @@ body {
 /*GRID*/
 
 .date {
-	max-width: 40%;
+	max-width: 30%;
 	margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .align-self-center {
-	margin: 5vh 0;
+	margin-top: 20vh;
 }
 
 /*ANIMATION*/
@@ -98,7 +98,7 @@ input {
 	border-radius: 0;
 	width: 190px;
 	font-size: 20px;
-	margin: 30px auto;
+	margin: 10px auto;
 }
 
 .btn-primary:active,
@@ -171,19 +171,11 @@ h2 {
 }
 
 h1, h2 {
-	margin-top: 4vh;
+	margin-top: 6vh;
 }
 
 h3 {
-	font-size: 30px;
-}
-
-.show h2 {
-	margin-top: initial;
-}
-
-.show h4 {
-	margin-top: 30px;
+	font-size: 20px;
 }
 
 
@@ -192,6 +184,10 @@ h3 {
 
 	.date {
 		max-width: 70%;
+	}
+
+	#mc_embed_signup {
+		margin-top: 50px;
 	}
 
 }
@@ -223,21 +219,22 @@ h3 {
 	}
 
 	h1 {
-		font-size: 42px;
+		font-size: 44px;
 	}
 
 	.col-md-4 {
 		margin: 24px 0;
 	}
 
+
+	.align-self-center {
+		margin-top: 0;
+	}
+
 }
 
 /*XX small devices (portrait phones, less than 420px)*/
 @media (max-width: 420px) {
-
-	.date {
-		max-width: 100%;
-	}
 
 }
 
